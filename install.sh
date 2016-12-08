@@ -37,3 +37,46 @@ cd $ROOT/faceye-security-web-mongo/faceye-security-web-entity-mongo
 mvn clean compile package install -D maven.test.skip=true -P product
 cd $ROOT/faceye-security-web-mongo/faceye-security-web-manager-mongo
 mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-weixin/faceye-weixin-entity
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-weixin/faceye-weixin-manager
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-stock/faceye-stock-entity
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-stock/faceye-stock-manager
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-cms/faceye-cms-entity
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-cms/faceye-cms-manager
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-cms/faceye-cms-web
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-generate/faceye-generate-entity
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-generate/faceye-generate-manager
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-code/faceye-code-entity
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-code/faceye-code-manager
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-code/faceye-code-web
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-kindle/faceye-kindle-entity
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-kindle/faceye-kindle-manager
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-kindle/faceye-kindle-web	
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-search/faceye-search-book-manager
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-search/faceye-search-manager
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-search/faceye-search-web
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-vehicle/faceye-vehicle-entity
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-vehicle/faceye-vehicle-manager
+mvn clean compile package install -D maven.test.skip=true -P product
+cd $ROOT/faceye-vehicle/fache-vehicle-mobile
+mvn clean compile package install -D maven.test.skip=true -P product
+
