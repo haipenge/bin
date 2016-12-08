@@ -13,7 +13,7 @@ if [[ $1 == 'clone' ]];then
   $ACTION = 'colone'
 fi
 
-if [[ $ACTION == 'clone']];then
+if [[ $ACTION == 'clone' ]];then
   cd $ROOT 
   git clone https://github.com/haipenge/faceye-pom.git
   git clone https://github.com/haipenge/faceye-feature.git
