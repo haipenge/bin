@@ -8,7 +8,7 @@
 #Dfine Root Directory of project.
 ROOT=$(dirname $(cd "$(dirname "$0")";pwd))
 #Define Default action of git.
-ACTION = 'pull'
+ACTION='pull'
 if [[ $1 == 'clone' ]];then
   $ACTION = 'colone'
 fi
