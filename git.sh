@@ -39,6 +39,99 @@ if [[ $ACTION == 'clone' ]];then
   git clone https://github.com/haipenge/faceye-lib.git
   git clone https://github.com/haipenge/faceye-vehicle.git
   exit 0
+else if [[ $ACTION == 'pom' ]];then
+  cd $ROOT/faceye-pom
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-feature
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-feature-jpa
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-util-manager
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-feature-mongo
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-security-manager-jpa
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-security-manager-mongo
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-security-platform-manager-jpa
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-security-platform-manager-mongo
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-security-web-jpa
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-security-web-mongo
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-redis-manager
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-search
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-weixin
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-kindle
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-stock
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-cms
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-code
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-generate
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-questionnaire
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-mail-manager
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-lib
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
+  cd $ROOT/faceye-vehicle
+  git add .
+  git commit -m '修改pom 依赖版本'
+  git push
 else
   cd $ROOT/faceye-pom
   git pull
