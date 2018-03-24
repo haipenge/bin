@@ -39,7 +39,7 @@ if [[ $ACTION == 'clone' ]];then
   git clone https://github.com/haipenge/faceye-lib.git
   git clone https://github.com/haipenge/faceye-vehicle.git
   exit 0
-else if [[ $ACTION == 'pom' ]];then
+elif [[ $ACTION == 'pom' ]];then
   cd $ROOT/faceye-pom
   git add .
   git commit -m '修改pom 依赖版本'
