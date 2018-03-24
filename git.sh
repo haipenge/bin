@@ -38,6 +38,12 @@ if [[ $ACTION == 'clone' ]];then
   git clone https://github.com/haipenge/faceye-mail-manager.git
   git clone https://github.com/haipenge/faceye-lib.git
   git clone https://github.com/haipenge/faceye-vehicle.git
+  git clone https://github.com/haipenge/faceye-clock.git
+  git clone https://github.com/haipenge/faceye-mars.git
+  git clone https://github.com/haipenge/faceye-shop.git
+  git clone https://github.com/haipenge/faceye-kafka.git
+  git clone https://github.com/haipenge/faceye-hadoop.git
+  git clone https://github.com/haipenge/faceye-elasticsearch.git
   exit 0
 elif [[ $ACTION == 'pom' ]];then
   cd $ROOT/faceye-pom
@@ -178,5 +184,15 @@ else
   cd $ROOT/faceye-lib
   git pull
   cd $ROOT/faceye-vehicle
+  git pull
+  cd $ROOT/faceye-mars
+  git pull
+  cd $ROOT/faceye-shop
+  git pull
+  cd $ROOT/faceye-kafka
+  git pull
+  cd $ROOT/faceye-hadoop
+  git pull
+  cd $ROOT/faceye-elasticsearch
   git pull
 fi
